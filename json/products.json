@@ -1,0 +1,154 @@
+{
+  "items": [
+    {
+      "name": "Chaqueta de Cuero Vintage",
+      "description": "Una chaqueta de cuero clásica en excelente estado de los años 1980.",
+      "price": 75.99,
+      "condition": "Como Nueva",
+      "seller": {
+        "name": "María",
+        "location": "Montevideo, Uruguay"
+      }
+    },
+    {
+      "name": "Mesa de Madera Antigua",
+      "description": "Una mesa de madera bellamente elaborada con intrincados grabados.",
+      "price": 150.00,
+      "condition": "Buena",
+      "seller": {
+        "name": "Carlos",
+        "location": "Punta del Este, Uruguay"
+      }
+    },
+    {
+      "name": "iPhone X Reacondicionado",
+      "description": "Un iPhone X reacondicionado con batería y pantalla nuevas.",
+      "price": 299.99,
+      "condition": "Excelente",
+      "seller": {
+        "name": "Luis",
+        "location": "Colonia, Uruguay"
+      }
+    },
+    {
+      "name": "Discos de Vinilo Vintage",
+      "description": "Una colección de discos de vinilo clásicos de las décadas de 1960 y 1970.",
+      "price": 50.00,
+      "condition": "Usados",
+      "seller": {
+        "name": "Ana",
+        "location": "Maldonado, Uruguay"
+      }
+    },
+    {
+      "name": "Bicicleta Retro",
+      "description": "Una bicicleta vintage con un encantador diseño retro.",
+      "price": 120.00,
+      "condition": "Regular",
+      "seller": {
+        "name": "Esteban",
+        "location": "Tacuarembó, Uruguay"
+      }
+    },
+    {
+      "name": "Laptop de Segunda Mano",
+      "description": "Una laptop usada con RAM y almacenamiento mejorados.",
+      "price": 250.00,
+      "condition": "Buena",
+      "seller": {
+        "name": "Gabriela",
+        "location": "Salto, Uruguay"
+      }
+    },
+    {
+      "name": "Reloj de Bolsillo Clásico",
+      "description": "Un reloj de bolsillo vintage con intrincados grabados.",
+      "price": 80.00,
+      "condition": "Como Nuevo",
+      "seller": {
+        "name": "Jorge",
+        "location": "Rivera, Uruguay"
+      }
+    },
+    {
+      "name": "Cámara Polaroid Vintage",
+      "description": "Una antigua cámara Polaroid que aún funciona perfectamente.",
+      "price": 40.00,
+      "condition": "Usada",
+      "seller": {
+        "name": "Isabel",
+        "location": "Treinta y Tres, Uruguay"
+      }
+    },
+    {
+      "name": "Escritorio Antiguo",
+      "description": "Un escritorio antiguo bellamente restaurado con detalles intrincados.",
+      "price": 300.00,
+      "condition": "Excelente",
+      "seller": {
+        "name": "Martín",
+        "location": "Durazno, Uruguay"
+      }
+    },
+    {
+      "name": "Colección de Vinilos de Rock Clásico",
+      "description": "Una colección de discos de vinilo de rock clásico de varios artistas.",
+      "price": 75.00,
+      "condition": "Buena",
+      "seller": {
+        "name": "Verónica",
+        "location": "Rocha, Uruguay"
+      }
+    },
+    {
+      "name": "Tocadiscos Vintage",
+      "description": "Un tocadiscos vintage en excelente estado de funcionamiento.",
+      "price": 90.00,
+      "condition": "Como Nuevo",
+      "seller": {
+        "name": "Miguel",
+        "location": "Canelones, Uruguay"
+      }
+    },
+    {
+      "name": "Guitarra Eléctrica de Segunda Mano",
+      "description": "Una guitarra eléctrica usada con un diseño y tono únicos.",
+      "price": 200.00,
+      "condition": "Buena",
+      "seller": {
+        "name": "Diego",
+        "location": "Artigas, Uruguay"
+      }
+    },
+    {
+      "name": "Juego de Tetera Antigua",
+      "description": "Un juego de tetera y taza antiguo con patrones de porcelana intrincados.",
+      "price": 60.00,
+      "condition": "Buena",
+      "seller": {
+        "name": "Camila",
+        "location": "Lavalleja, Uruguay"
+      }
+    },
+    {
+      "name": "Máquina de Escribir Retro",
+      "description": "Una máquina de escribir retro de la década de 1960 en funcionamiento.",
+      "price": 70.00,
+      "condition": "Usada",
+      "seller": {
+        "name": "Andrés",
+        "location": "Flores, Uruguay"
+      }
+    },
+    {
+      "name": "Tocadiscos Vintage",
+      "description": "Un tocadiscos vintage con radio y altavoces incorporados.",
+      "price": 110.00,
+      "condition": "Regular",
+      "seller": {
+        "name": "Elena",
+        "location": "San José, Uruguay"
+      }
+    }
+  ]
+}
