@@ -1,154 +1,130 @@
 {
   "items": [
     {
-      "name": "Chaqueta de Cuero Vintage",
-      "description": "Una chaqueta de cuero clásica en excelente estado de los años 1980.",
-      "price": 75.99,
-      "condition": "Como Nueva",
-      "seller": {
-        "name": "María",
-        "location": "Montevideo, Uruguay"
-      }
+      "id": "1",
+      "name": "Vestido de Verano Floral",
+      "description": "Un hermoso vestido de verano con estampado floral y diseño ligero.",
+      "price": 35.99,
+      "category": "Ropa"
     },
     {
-      "name": "Mesa de Madera Antigua",
-      "description": "Una mesa de madera bellamente elaborada con intrincados grabados.",
-      "price": 150.00,
-      "condition": "Buena",
-      "seller": {
-        "name": "Carlos",
-        "location": "Punta del Este, Uruguay"
-      }
+      "id": "2",
+      "name": "iPhone 13 Pro",
+      "description": "El último iPhone con una cámara avanzada y una pantalla brillante.",
+      "price": 999.99,
+      "category": "Electrónica"
     },
     {
-      "name": "iPhone X Reacondicionado",
-      "description": "Un iPhone X reacondicionado con batería y pantalla nuevas.",
-      "price": 299.99,
-      "condition": "Excelente",
-      "seller": {
-        "name": "Luis",
-        "location": "Colonia, Uruguay"
-      }
+      "id": "3",
+      "name": "Juego de Tazas de Cerámica",
+      "description": "Un conjunto de elegantes tazas de café de cerámica con patrones únicos.",
+      "price": 24.99,
+      "category": "Bazar"
     },
     {
-      "name": "Discos de Vinilo Vintage",
-      "description": "Una colección de discos de vinilo clásicos de las décadas de 1960 y 1970.",
-      "price": 50.00,
-      "condition": "Usados",
-      "seller": {
-        "name": "Ana",
-        "location": "Maldonado, Uruguay"
-      }
+      "id": "4",
+      "name": "Camisa de Polo Clásica",
+      "description": "Una camisa de polo clásica y cómoda para uso diario.",
+      "price": 28.99,
+      "category": "Ropa"
     },
     {
-      "name": "Bicicleta Retro",
-      "description": "Una bicicleta vintage con un encantador diseño retro.",
-      "price": 120.00,
-      "condition": "Regular",
-      "seller": {
-        "name": "Esteban",
-        "location": "Tacuarembó, Uruguay"
-      }
+      "id": "5",
+      "name": "Smart TV 4K",
+      "description": "Una Smart TV con resolución 4K y acceso a múltiples servicios de transmisión.",
+      "price": 599.99,
+      "category": "Electrónica" 
     },
     {
-      "name": "Laptop de Segunda Mano",
-      "description": "Una laptop usada con RAM y almacenamiento mejorados.",
-      "price": 250.00,
-      "condition": "Buena",
-      "seller": {
-        "name": "Gabriela",
-        "location": "Salto, Uruguay"
-      }
+      "id": "6",
+      "name": "Set de Utensilios de Cocina",
+      "description": "Un juego completo de utensilios de cocina de acero inoxidable duradero.",
+      "price": 79.99,
+      "category": "Bazar"
     },
     {
-      "name": "Reloj de Bolsillo Clásico",
-      "description": "Un reloj de bolsillo vintage con intrincados grabados.",
-      "price": 80.00,
-      "condition": "Como Nuevo",
-      "seller": {
-        "name": "Jorge",
-        "location": "Rivera, Uruguay"
-      }
+      "id": "7",
+      "name": "Jeans Ajustados de Estilo Moderno",
+      "description": "Jeans ajustados de alta calidad con un diseño moderno y cómodo.",
+      "price": 49.99,
+      "category": "Ropa"
     },
     {
-      "name": "Cámara Polaroid Vintage",
-      "description": "Una antigua cámara Polaroid que aún funciona perfectamente.",
-      "price": 40.00,
-      "condition": "Usada",
-      "seller": {
-        "name": "Isabel",
-        "location": "Treinta y Tres, Uruguay"
-      }
+      "id": "8",
+      "name": "Altavoz Bluetooth Portátil",
+      "description": "Un altavoz Bluetooth compacto con un sonido potente y batería de larga duración.",
+      "price": 69.99,
+      "category": "Electrónica"
     },
     {
-      "name": "Escritorio Antiguo",
-      "description": "Un escritorio antiguo bellamente restaurado con detalles intrincados.",
-      "price": 300.00,
-      "condition": "Excelente",
-      "seller": {
-        "name": "Martín",
-        "location": "Durazno, Uruguay"
-      }
+      "id": "9",
+      "name": "Juego de Cubiertos de Plata",
+      "description": "Un elegante juego de cubiertos de plata para ocasiones especiales y uso diario.",
+      "price": 159.99,
+      "category": "Bazar"
     },
     {
-      "name": "Colección de Vinilos de Rock Clásico",
-      "description": "Una colección de discos de vinilo de rock clásico de varios artistas.",
-      "price": 75.00,
-      "condition": "Buena",
-      "seller": {
-        "name": "Verónica",
-        "location": "Rocha, Uruguay"
-      }
+      "id": "10",
+      "name": "Vestido de Noche Elegante",
+      "description": "Un deslumbrante vestido de noche elegante para ocasiones formales.",
+      "price": 129.99,
+      "category": "Ropa"
     },
     {
-      "name": "Tocadiscos Vintage",
-      "description": "Un tocadiscos vintage en excelente estado de funcionamiento.",
-      "price": 90.00,
-      "condition": "Como Nuevo",
-      "seller": {
-        "name": "Miguel",
-        "location": "Canelones, Uruguay"
-      }
+      "id": "11",
+      "name": "Auriculares Inalámbricos con Cancelación de Ruido",
+      "description": "Auriculares inalámbricos de alta gama con cancelación de ruido y sonido envolvente.",
+      "price": 199.99,
+      "category": "Electrónica"
     },
     {
-      "name": "Guitarra Eléctrica de Segunda Mano",
-      "description": "Una guitarra eléctrica usada con un diseño y tono únicos.",
-      "price": 200.00,
-      "condition": "Buena",
-      "seller": {
-        "name": "Diego",
-        "location": "Artigas, Uruguay"
-      }
+      "id": "12",
+      "name": "Juego de Copas de Vino Cristalinas",
+      "description": "Un juego exquisito de copas de vino de cristal para realzar el disfrute de los vinos finos.",
+      "price": 79.99,
+      "category": "Bazar"
     },
     {
-      "name": "Juego de Tetera Antigua",
-      "description": "Un juego de tetera y taza antiguo con patrones de porcelana intrincados.",
-      "price": 60.00,
-      "condition": "Buena",
-      "seller": {
-        "name": "Camila",
-        "location": "Lavalleja, Uruguay"
-      }
+      "id": "13",
+      "name": "Abrigo de Invierno Acolchado",
+      "description": "Un abrigo de invierno acolchado con capucha para mantener el calor en los días fríos.",
+      "price": 89.99,
+      "category": "Ropa"
     },
     {
-      "name": "Máquina de Escribir Retro",
-      "description": "Una máquina de escribir retro de la década de 1960 en funcionamiento.",
-      "price": 70.00,
-      "condition": "Usada",
-      "seller": {
-        "name": "Andrés",
-        "location": "Flores, Uruguay"
-      }
+      "id": "14",
+      "name": "Smartwatch de Última Generación",
+      "description": "Un smartwatch de última generación con múltiples funciones de seguimiento y conectividad.",
+      "price": 149.99,
+      "category": "Electrónica"
     },
     {
-      "name": "Tocadiscos Vintage",
-      "description": "Un tocadiscos vintage con radio y altavoces incorporados.",
-      "price": 110.00,
-      "condition": "Regular",
-      "seller": {
-        "name": "Elena",
-        "location": "San José, Uruguay"
-      }
+      "id": "15",
+      "name": "Juego de Sartenes Antiadherentes",
+      "description": "Un juego completo de sartenes antiadherentes duraderas para cocinar sin esfuerzo.",
+      "price": 129.99, 
+      "category": "Bazar"
+    },
+    {
+      "id": "16",
+      "name": "Suéter de Lana Tejida a Mano",
+      "description": "Un suéter de lana suave y cálido tejido a mano con detalles únicos.",
+      "price": 59.99,
+      "category": "Ropa"
+    },
+    {
+      "id": "17",
+      "name": "Cámara DSLR Profesional", 
+      "description": "Una cámara DSLR profesional de alta resolución con capacidades avanzadas de fotografía.",
+      "price": 899.99,
+      "category": "Electrónica"
+    },
+    {
+      "id": "18",
+      "name": "Juego de Cubiertos para Barbacoa",
+      "description": "Un conjunto completo de cubiertos de acero inoxidable para barbacoa para ocasiones al aire libre.",
+      "price": 49.99,
+      "category": "Bazar"
     }
   ]
 }

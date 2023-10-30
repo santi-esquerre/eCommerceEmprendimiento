@@ -1,3 +1,5 @@
+document.addEventListener("DOMContentLoaded", loadNavBar);
+
 function loadNavBar() {
   fetch("navbar.html")
     .then((response) => response.text())
@@ -5,4 +7,35 @@ function loadNavBar() {
       document.getElementById("navbar").innerHTML = data;
     });
 }
-document.addEventListener("DOMContentLoaded", loadNavBar);
+
+async function fetchProductImages(term) {
+  const apiKey = "2bbcde531bf6451bbdb3c1dfc21546b7";
+  const searchTerm = term;
+
+  const endpoint = `https://api.bing.microsoft.com/v7.0/images/search?q=${encodeURIComponent(
+    searchTerm
+  )}`;
+  const headers = { "Ocp-Apim-Subscription-Key": apiKey };
+
+  let images = [];
+
+  await fetch(endpoint, {
+    headers: headers,
+  })
+    .then((response) => {
+      if (response.ok) {
+        return response.json();
+      } else {
+        throw new Error("Error en la llamada");
+      }
+    })
+    .then((data) => {
+      images = data.value;
+    })
+    .catch((error) => {
+      // Maneja los errores aquí
+      console.error("Error al realizar la solicitud:", error);
+    });
+
+  return images.slice(0, 5);
+}

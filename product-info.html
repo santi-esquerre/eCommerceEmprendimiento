@@ -12,9 +12,125 @@
     />
   </head>
   <body>
-    <div id="navbar"></div>
     <main>
-      <div class="container"></div>
+      <div id="navbar"></div>
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-md-5">
+            <div
+              id="productCarousel"
+              class="carousel slide"
+              data-bs-ride="carousel"
+              data-bs-wrap="true"
+            >
+              <!-- Carousel -->
+              <div class="carousel-indicators" id="cIndicators"></div>
+
+              <!-- Carousel images -->
+              <div class="carousel-inner" id="imgContainer"></div>
+
+              <!-- Carousel controls -->
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#productCarousel"
+                data-bs-slide="prev"
+              >
+                <span class="carousel-control-prev-icon"></span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#productCarousel"
+                data-bs-slide="next"
+              >
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Product info -->
+          <div class="col-md-7">
+            <h1 id="prodTitle">Product Title</h1>
+            <p class="lead text-danger fw-bold">OFERTA!</p>
+
+            <p class="text-danger fs-4 fw-bold">
+              <span id="prodPrice"></span>
+              <small class="text-muted"
+                ><span style="font-weight: normal; margin-left: 1em"
+                  >Antes </span
+                ><s id="oldPrice"></s
+              ></small>
+            </p>
+            <p id="prodDescription">
+              Product description goes here. Lorem ipsum dolor sit amet
+              consectetur adipisicing elit. Voluptatibus, modi!
+            </p>
+
+            <p id="prodSoldCount" class="text-muted">Vendidos:</p>
+
+            <!-- <a
+            href="cart.html"
+            class="btn btn-outline-dark flex-shrink-0 btn-add-to-cart"
+          >
+            <i class="fa fa-shopping-cart"></i> Agregar al carrito
+          </a> -->
+            <button
+              id="agregarAlCarrito"
+              class="btn btn-outline-dark flex-shrink-0 btn-add-to-cart"
+            >
+              <i class="fa fa-shopping-cart"></i> Agregar al carrito
+            </button>
+          </div>
+        </div>
+      </div>
+      <!--* Comment container --><br />
+      <div class="container my-5" id="comments-container"></div>
+      <!-- * Comment add form -->
+      <div class="container my-5" id="comment-container">
+        <form id="comentarioForm">
+          <div class="mb-3">
+            <label for="comment" class="form-label"
+              ><h3>Agregar comentario</h3></label
+            ><br />
+            <textarea
+              class="form-control"
+              name="comment"
+              id="comment"
+              cols="50"
+              rows="5"
+            >
+            </textarea>
+          </div>
+          <div class="mb-3">
+            <label for="score" class="form-label"
+              >Califica este producto:</label
+            >
+            <div>
+              <div class="score cursor-active mb-3" style="font-size: x-large">
+                <span class="star fa fa-star"></span>
+                <span class="star fa fa-star"></span>
+                <span class="star fa fa-star"></span>
+                <span class="star fa fa-star"></span>
+                <span class="star fa fa-star"></span>
+              </div>
+              <input type="hidden" id="score" name="opinion" min="1" max="5" />
+            </div>
+            <button
+              id="send-comment"
+              type="submit"
+              class="btn btn-outline-dark flex-shrink-0 btn-send"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+      <!--* Related products container --><br />
+      <div class="container my-5">
+        <h2 class="mb-4 dark-mode">Productos relacionados</h2>
+        <div class="row" id="relProdContainer"></div>
+      </div>
     </main>
   </body>
   <script src="js/main.js"></script>
