@@ -9,7 +9,7 @@ function loadNavBar() {
 }
 
 async function fetchProductImages(term) {
-  const apiKey = "18f1caae9a7c4db1afc206edef04571b";
+  const apiKey = "xd";
   const searchTerm = term;
 
   const endpoint = `https://api.bing.microsoft.com/v7.0/images/search?q=${encodeURIComponent(
